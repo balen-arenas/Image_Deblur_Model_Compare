@@ -38,6 +38,7 @@ The following images are the results of three different passes of each model wit
 * CNN https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/CNN%20for%20Image%20Deblur.ipynb
 * Diffusion https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/Diffusion%20Model%20for%20Image%20Deblur.ipynb
 * GAN https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/GAN%20for%20Image%20Deblur.ipynb
+
 On the images you see below, the top row of each set is from the CNN, the middle row is from the Diffusion model, and the last row is from the GAN.
 
 #### Deblur Dataset and Gaussian Blurred Images
