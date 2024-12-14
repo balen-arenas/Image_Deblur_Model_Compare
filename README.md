@@ -37,13 +37,14 @@ A GAN, https://en.wikipedia.org/wiki/Generative_adversarial_network, is made up 
 The following images are the results of three different passes of each model with a different dataset. On the images you see below, the top row of each set is from the CNN, the middle row is from the Diffusion model, and the last row is from the GAN.
 
 #### Deblur Dataset and Gaussian Blurred Images
-![image](https://github.com/user-attachments/assets/bae28d1f-660a-4585-9335-110afb9436d6)
+![image](https://github.com/user-attachments/assets/b1b17443-abb1-46fd-aa7f-9c621166d016)
 
 #### Deblur Dataset and Motion Blurred Images
-![image](https://github.com/user-attachments/assets/d77d5bd2-2fb3-47dc-b2d1-4a0c5057a7a6)
+![image](https://github.com/user-attachments/assets/6a8314ba-fb3d-4106-af53-9c4ae031a840)
 
 #### Celebrity Image Dataset
-![image](https://github.com/user-attachments/assets/39c63680-a188-4ce7-a66e-27be4f12a5d4)
+![image](https://github.com/user-attachments/assets/eb07fa76-9b6f-42f6-b9ad-52be1823a254)
+
 
 
 
