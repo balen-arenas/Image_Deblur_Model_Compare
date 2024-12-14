@@ -50,6 +50,12 @@ On the images you see below, the top row of each set is from the CNN, the middle
 #### Celebrity Image Dataset
 ![image](https://github.com/user-attachments/assets/eb07fa76-9b6f-42f6-b9ad-52be1823a254)
 
+## Concluding Analysis
+Here are some conclusions with this project.
+* The quantative metrics is not reliable with what we see. With some of the outputs, especially with the Gaussian blurred images, the metrics don't coincide with what we see visually. It can be that the metrics show that smoothed images have better measurements than what the visual results really are.
+* Definitely need more time and fine tunning of each model. There are a bunch of hyperparameters that can be tweaked, layers can be added, the number of passes of each model can be added, and so on.
+* How each image is blurred or noised has an effect of the outcome of the model. For a more succesful outcome, each model might need to be tweaked for the type of blurred image input.
+* For future research, can a combination of networks and models be used to have a better outcome. Could an initial pass be with one type of model and then a finishing pass with another model.
 
 
 
