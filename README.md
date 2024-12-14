@@ -34,7 +34,11 @@ A GAN, https://en.wikipedia.org/wiki/Generative_adversarial_network, is made up 
 ![image](https://github.com/user-attachments/assets/1ac9b98a-0786-49f2-89da-65416b7358d4)
 
 ### Results
-The following images are the results of three different passes of each model with a different dataset. On the images you see below, the top row of each set is from the CNN, the middle row is from the Diffusion model, and the last row is from the GAN.
+The following images are the results of three different passes of each model with a different dataset. Here are the links to each notebook used for their respective model.
+* CNN https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/CNN%20for%20Image%20Deblur.ipynb
+* Diffusion https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/Diffusion%20Model%20for%20Image%20Deblur.ipynb
+* GAN https://github.com/balen-arenas/Image_Deblur_Model_Compare/blob/main/Notebooks/GAN%20for%20Image%20Deblur.ipynb
+On the images you see below, the top row of each set is from the CNN, the middle row is from the Diffusion model, and the last row is from the GAN.
 
 #### Deblur Dataset and Gaussian Blurred Images
 ![image](https://github.com/user-attachments/assets/b1b17443-abb1-46fd-aa7f-9c621166d016)
