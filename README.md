@@ -4,7 +4,17 @@
 This capstone project is the final project of the Data Science Practicum II course at Regis University. This project compares the image processing results of three distinct models. 
 
 ### Methodology and Datasources
-
+The methodlogy of this project is fairly simple. Using several datasets, the models are trained separate times and tested each time. Each time training and tested, it is with either a completely different dataset or a different validation subsection (one of the datasets has different types of blurred images). The trained models are then tested with a blurred image to see if improvements can be gleaned from the model. The results of each model are then compared against the other models. The outcomes are evaluated through subjective and objective means. What we see is the subjective evaluation and the objective evaluation are three measurements, MSE, PSNR, and SSIM.
+#### Quantative Metrics
+The quantative measurements of the images and outputs are the Mean Squared Error (MSE), Peak Signal to Noise Ratio (PSNR), and the Structurally Similarity Index Measure (SSIM). The code uses the following python library, https://scikit-image.org/docs/stable/api/skimage.metrics.html
+* MSE https://scikit-image.org/docs/stable/api/skimage.metrics.html#skimage.metrics.mean_squared_error
+* PSNR https://scikit-image.org/docs/stable/api/skimage.metrics.html#skimage.metrics.peak_signal_noise_ratio
+* SSIM https://scikit-image.org/docs/stable/api/skimage.metrics.html#skimage.metrics.structural_similarity
+These metrics are a compartitive metric. In that, they compare the original image to the input image and to the output image.
+#### Datasources
+For training and testing, this project uses two datasources with one of the datasources used twice as it has different type of blurred images for validation and testing.
+* Blur Dataset https://www.kaggle.com/datasets/kwentar/blur-dataset
+* Celebrity Images (part of this big list of image sets) https://www.kaggle.com/datasets/jishnuparayilshibu/a-curated-list-of-image-deblurring-datasets
 
 ### Models and Networks
 As mentioned in the introduction, there are three different models used, CNN, Diffusion, and GAN. Below are brief descriptions of each.
