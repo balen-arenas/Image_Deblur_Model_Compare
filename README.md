@@ -18,7 +18,12 @@ Diffusion models, https://en.wikipedia.org/wiki/Diffusion_model, have a process 
 
 ![image](https://github.com/user-attachments/assets/0cf31d2a-0bcc-4e0b-9db8-e6f0c80fc480)
 
-### Generative Adversarial Network (GAN)
+#### Generative Adversarial Network (GAN)
+A GAN, https://en.wikipedia.org/wiki/Generative_adversarial_network, is made up of two neural networks. The two networks compete against each other and are referred to as a Generator and a Discriminator. The Generator adds noise to an image to try to fool the the Discriminator. Through a feedback loop they compete with other to get to a result where the Disciminator cannot tell the difference between the fake image and a real image. As with the other models, below is a visual look at the process.
+
+![image](https://github.com/user-attachments/assets/1ac9b98a-0786-49f2-89da-65416b7358d4)
+
+
 
 
 
